@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col-md-8">
+    <div class="table-responsive">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <% %w{id title content created_at}.each do |cn| %>
+              <%=content_tag :th, model_class.human_attribute_name(cn) %>
+            <%end%>
+          </tr>
+        </thead>
+        <%=render partial: 'msg', collection: @messages%>
+      </table>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <%=render 'form'%>
+  </div>
+</div>

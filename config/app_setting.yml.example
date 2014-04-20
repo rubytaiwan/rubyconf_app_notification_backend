@@ -1,0 +1,13 @@
+defaults: &defaults
+  urbanairship:
+    application_key:
+    application_secret:
+    master_secret:
+    request_timeout: 5
+  auth:
+    name:
+    password:
+
+development:
+  <<: *defaults
+
