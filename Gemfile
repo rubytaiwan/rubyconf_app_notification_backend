@@ -40,4 +40,4 @@ gem 'urbanairship'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 gem 'simple_form', '~> 3.1.0.rc1', github: 'plataformatec/simple_form'
-
+gem 'quiet_assets', :group => :development
