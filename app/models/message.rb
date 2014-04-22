@@ -43,7 +43,7 @@ protected
   end
 
   def send_ua
-    Urbanairship.push to_ua_ios
-    Urbanairship.push to_ua_android
+    Urbanairship.push ua_payload_ios
+    Urbanairship.push ua_payload_android
   end
 end
