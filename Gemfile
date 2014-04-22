@@ -41,3 +41,6 @@ gem 'urbanairship'
 # gem 'debugger', group: [:development, :test]
 gem 'simple_form', '~> 3.1.0.rc1', github: 'plataformatec/simple_form'
 gem 'quiet_assets', :group => :development
+gem 'capistrano', '~> 3.2.0'
+gem 'capistrano-bundler'
+gem 'capistrano-rails'
